@@ -1,0 +1,2 @@
+For each time slot t, the algorithm picks the next process from unscheduled processes, and finds ALL other unscheduled processes that can run in parallel with latter.
+All of them are then scheduled to run in parallel at t. This is better due to the use of parallel processes.
